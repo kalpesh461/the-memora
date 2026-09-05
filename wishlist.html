@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Wishlist — The Memora</title>
+<meta name="description" content="Your saved Memora gift boxes and jewellery.">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<meta name="theme-color" content="#2C3A22">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://www.thememora.in/wishlist.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Memora">
+<meta property="og:title" content="Wishlist — The Memora">
+<meta property="og:description" content="Your saved Memora gift boxes and jewellery.">
+<meta property="og:url" content="https://www.thememora.in/wishlist.html">
+<meta property="og:image" content="https://www.thememora.in/assets/img/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Wishlist — The Memora">
+<meta name="twitter:description" content="Your saved Memora gift boxes and jewellery.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/logo.png">
+<link rel="manifest" href="manifest.json">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+<body>
+<div class="announce"><div class="marquee" id="marquee"></div></div>
+<header class="site-header">
+  <div class="wrap hdr">
+    <a class="brand" href="index.html" aria-label="The Memora home">
+      <img src="assets/img/logo.png" alt="The Memora logo" width="44" height="44">
+      <span class="brand-txt"><b>THE MEMORA</b><small>Gifts &amp; Keepsakes</small></span>
+    </a>
+    <nav aria-label="Primary"><ul class="nav">
+      <li><a href="index.html">Home</a></li>
+      <li class="has-drop"><a href="shop.html">Shop</a>
+        <div class="drop"><a href="shop.html?category=gift-boxes">Signature Gift Boxes<span>35+</span></a><a href="shop.html?category=jewellery">Jewellery<span>9</span></a><a href="shop.html?category=personalised">Personalised Keepsakes<span>6</span></a><a href="shop.html?category=hampers">Luxury Hampers<span>4</span></a><a href="shop.html?category=addons">Add-Ons & Extras<span>4</span></a><a href="shop.html?category=corporate">Corporate Gifting<span>3</span></a><a href="shop.html" style="border-top:1px solid var(--line);margin-top:6px;color:var(--gold-deep)">View all products →</a></div></li>
+      <li class="has-drop"><a href="shop.html" data-nomatch>Occasions</a><div class="drop"><a href="shop.html?occasion=birthday">Birthday</a><a href="shop.html?occasion=anniversary">Anniversary</a><a href="shop.html?occasion=wedding">Wedding</a><a href="shop.html?occasion=raksha-bandhan">Raksha Bandhan</a><a href="shop.html?occasion=valentines">Valentine's Day</a><a href="shop.html?occasion=festive">Festive</a><a href="shop.html?occasion=thank-you">Thank You</a><a href="shop.html?occasion=congratulations">Congratulations</a></div></li>
+      <li><a href="corporate.html">Corporate</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Journal</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul></nav>
+    <div class="hdr-actions">
+      <button class="icon-btn" data-open-search aria-label="Search products"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></button>
+      <a class="icon-btn desk" href="track-order.html" aria-label="Track your order"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.6"/><path d="M4.5 20c1.4-4 4.2-6 7.5-6s6.1 2 7.5 6"/></svg></a>
+      <a class="icon-btn" href="account.html" aria-label="My account"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="10" r="3"/><path d="M6.3 19a6 6 0 0 1 11.4 0"/></svg></a>
+      <a class="icon-btn" href="wishlist.html" aria-label="Wishlist"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.5-7-9a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 4.5-7 9-7 9z"/></svg><span class="badge" data-wish-count>0</span></a>
+      <button class="icon-btn" data-open-cart aria-label="Open cart"><svg viewBox="0 0 24 24"><path d="M6 7h12l-1 12H7L6 7z"/><path d="M9 7V5a3 3 0 0 1 6 0v2"/></svg><span class="badge" data-cart-count>0</span></button>
+      <button class="burger" aria-label="Menu" aria-expanded="false"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+
+<div class="overlay"></div>
+
+<nav class="mnav" aria-label="Mobile">
+  <div class="m-head"><span class="eyebrow">Menu</span><button class="icon-btn" onclick="closeAllPanels()" aria-label="Close">✕</button></div>
+  <a href="index.html">Home</a>
+  <a href="shop.html">Shop all</a>
+  <a href="shop.html?category=gift-boxes">Signature Gift Boxes<span style="font-size:.7rem;color:var(--muted)">35+</span></a><a href="shop.html?category=jewellery">Jewellery<span style="font-size:.7rem;color:var(--muted)">9</span></a><a href="shop.html?category=personalised">Personalised Keepsakes<span style="font-size:.7rem;color:var(--muted)">6</span></a><a href="shop.html?category=hampers">Luxury Hampers<span style="font-size:.7rem;color:var(--muted)">4</span></a><a href="shop.html?category=addons">Add-Ons & Extras<span style="font-size:.7rem;color:var(--muted)">4</span></a><a href="shop.html?category=corporate">Corporate Gifting<span style="font-size:.7rem;color:var(--muted)">3</span></a>
+  <a href="corporate.html">Corporate gifting</a>
+  <a href="about.html">About us</a>
+  <a href="blog.html">Journal</a>
+  <a href="faq.html">FAQ</a>
+  <a href="track-order.html">Track order</a>
+  <a href="contact.html">Contact</a>
+  <a href="account.html">My account</a>
+  <a href="wishlist.html">Wishlist</a>
+  <a href="admin.html" style="color:var(--gold-deep)">Admin panel</a>
+  <a class="btn btn-gold" data-wa style="margin-top:18px;justify-content:center" target="_blank" rel="noopener">Chat on WhatsApp</a>
+</nav>
+
+<div class="search-modal" role="dialog" aria-label="Search">
+  <div class="search-box">
+    <div class="between" style="margin-bottom:14px"><span class="eyebrow">Search</span><button class="icon-btn" data-close-search aria-label="Close">✕</button></div>
+    <input id="searchInput" type="search" placeholder="Search gift boxes, jewellery, occasions…" autocomplete="off">
+    <div class="search-res" id="searchRes"><p style="font-size:.84rem;padding:8px">Try “anniversary”, “rakhi”, “necklace”…</p></div>
+  </div>
+</div>
+
+<aside class="cart-drawer" aria-label="Shopping cart">
+  <header><span class="eyebrow">Your gift box</span><button class="icon-btn" data-close-cart aria-label="Close cart">✕</button></header>
+  <div class="items" id="cartItems"></div>
+  <footer>
+    <div class="free-ship" id="drawerFree"></div>
+    <div class="between" style="margin-bottom:14px"><span style="font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)">Subtotal</span><b id="drawerTotal" style="font-size:1.2rem">₹0</b></div>
+    <a href="cart.html" class="btn btn-block" id="drawerCTA" style="margin-bottom:9px">View cart</a>
+    <a href="checkout.html" class="btn btn-gold btn-block">Checkout</a>
+  </footer>
+</aside>
+<main id="main">
+
+<section class="page-head"><div class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><i>/</i><span>Wishlist</span></nav>
+  <span class="eyebrow" style="color:var(--gold-light);margin-top:12px">Saved for later</span>
+  <h1>Your wishlist</h1><p>The pieces you tapped a heart on. They stay here on this device until you're ready.</p>
+</div></section>
+<section class="section"><div class="wrap"><div class="grid g4" id="wishGrid"></div></div></section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="f-grid">
+      <div class="f-brand">
+        <a class="brand" href="index.html" style="filter:none">
+          <img src="assets/img/logo.png" alt="" width="44" height="44">
+          <span class="brand-txt"><b style="color:var(--cream)">THE MEMORA</b><small>Gifts &amp; Keepsakes</small></span>
+        </a>
+        <p data-s="tagline">We wrap emotions, you create memory.</p>
+        <p style="font-size:.84rem;margin-bottom:14px"><a data-mail href="#">hello@thememora.in</a><br><a data-tel href="#" data-keep-text>+91 90000 00000</a></p>
+        <div class="socials">
+          <a data-social="instagram" href="#" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 3.2A6.6 6.6 0 1 0 18.6 12 6.6 6.6 0 0 0 12 5.4zm0 10.9A4.3 4.3 0 1 1 16.3 12 4.3 4.3 0 0 1 12 16.3zm6.9-11.1a1.5 1.5 0 1 1-1.5-1.5 1.5 1.5 0 0 1 1.5 1.5z"/></svg></a>
+          <a data-social="facebook" href="#" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V7.9c0-.9.3-1.5 1.6-1.5h1.6V3.6A21 21 0 0 0 14.5 3.5c-2.4 0-4 1.5-4 4.1v2.3H7.8V13h2.7v8z"/></svg></a>
+          <a data-social="pinterest" href="#" aria-label="Pinterest" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.7 19.3 9.6 9.6 0 0 1 .1-2.4l1.2-5s-.3-.6-.3-1.5c0-1.4.8-2.5 1.8-2.5.9 0 1.3.6 1.3 1.4 0 .9-.5 2.2-.8 3.4a1.5 1.5 0 0 0 1.5 1.9c1.8 0 3.2-1.9 3.2-4.7a4 4 0 0 0-4.3-4.2 4.5 4.5 0 0 0-4.6 4.5 4 4 0 0 0 .8 2.4.3.3 0 0 1 .1.3l-.3 1.1c0 .2-.2.2-.4.1a4.9 4.9 0 0 1-2.2-4.3c0-3.2 2.3-6.1 6.7-6.1a5.9 5.9 0 0 1 6.2 5.8c0 3.5-2.2 6.3-5.3 6.3a2.7 2.7 0 0 1-2.3-1.2l-.6 2.4a11 11 0 0 1-1.3 2.7A10 10 0 1 0 12 2z"/></svg></a>
+          <a data-social="youtube" href="#" aria-label="YouTube" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3z"/></svg></a>
+        </div>
+      </div>
+      <div><h5>Shop</h5><ul>
+        <li><a href="shop.html?category=gift-boxes">Signature Gift Boxes</a></li><li><a href="shop.html?category=jewellery">Jewellery</a></li><li><a href="shop.html?category=personalised">Personalised Keepsakes</a></li><li><a href="shop.html?category=hampers">Luxury Hampers</a></li><li><a href="shop.html?category=addons">Add-Ons & Extras</a></li><li><a href="shop.html?category=corporate">Corporate Gifting</a></li>
+        <li><a href="shop.html">All products</a></li></ul></div>
+      <div><h5>Occasions</h5><ul>
+        <li><a href="shop.html?occasion=birthday">Birthday</a></li><li><a href="shop.html?occasion=anniversary">Anniversary</a></li><li><a href="shop.html?occasion=wedding">Wedding</a></li><li><a href="shop.html?occasion=raksha-bandhan">Raksha Bandhan</a></li><li><a href="shop.html?occasion=valentines">Valentine's Day</a></li><li><a href="shop.html?occasion=festive">Festive</a></li><li><a href="shop.html?occasion=thank-you">Thank You</a></li></ul></div>
+      <div><h5>Help</h5><ul>
+        <li><a href="track-order.html">Track order</a></li>
+        <li><a href="faq.html">FAQs</a></li>
+        <li><a href="shipping-policy.html">Shipping</a></li>
+        <li><a href="returns-policy.html">Returns &amp; refunds</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="corporate.html">Bulk &amp; corporate</a></li>
+        <li><a href="admin.html">Admin panel</a></li></ul></div>
+      <div class="news">
+        <h5>Join the list</h5>
+        <p style="font-size:.86rem;margin-bottom:14px">10% off your first box, early access to seasonal drops, and nothing else.</p>
+        <form data-news novalidate>
+          <input type="email" placeholder="your@email.com" aria-label="Email" required>
+          <button class="btn btn-gold btn-block btn-sm" style="margin-top:10px" type="submit">Subscribe</button>
+        </form>
+        <div class="pay" style="margin-top:18px"><span>UPI</span><span>Cards</span><span>Net banking</span><span>COD</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="wrap"><div class="f-bottom">
+    <span>© <b data-year>2026</b> The Memora. Hand-wrapped in India.</span>
+    <span style="display:flex;gap:16px;flex-wrap:wrap">
+      <a href="privacy-policy.html">Privacy</a><a href="terms.html">Terms</a>
+      <a href="shipping-policy.html">Shipping</a><a href="returns-policy.html">Returns</a></span>
+  </div></div>
+</footer>
+
+<a class="fab-wa" data-wa href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1s-.5-.1-.7.2-.8 1-.9 1.2-.3.2-.6.1a8 8 0 0 1-2.4-1.5 9 9 0 0 1-1.6-2c-.2-.3 0-.5.1-.6l.5-.6.3-.5v-.5l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4a3.4 3.4 0 0 0-1 2.5A5.8 5.8 0 0 0 7.3 13c.2.2 2.1 3.2 5.1 4.5a17 17 0 0 0 1.7.6 4 4 0 0 0 1.9.1 3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.1-.3-.2-.6-.4zM12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.3A10 10 0 1 0 12 2z"/></svg></a>
+<button class="to-top" aria-label="Back to top"><svg viewBox="0 0 24 24" style="stroke:currentColor;fill:none;stroke-width:1.6;width:18px;height:18px"><path d="M12 19V6M6 12l6-6 6 6"/></svg></button>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/store.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/pages.js"></script>
+<script>window.pageInit=initWishlist;</script>
+</body>
+</html>

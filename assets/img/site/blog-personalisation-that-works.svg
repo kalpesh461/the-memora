@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 880" width="1400" height="880">
+<defs><linearGradient id="w304" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2C3A22"/><stop offset="1" stop-color="#4A5A38"/></linearGradient></defs>
+<rect width="1400" height="880" fill="url(#w304)"/>
+<g opacity=".22" stroke="#C9A961" fill="none" stroke-width="1.6">
+<circle cx="1180" cy="240" r="60"/><circle cx="1270" cy="240" r="82"/><circle cx="1360" cy="240" r="104"/><circle cx="1180" cy="390" r="126"/><circle cx="1270" cy="390" r="148"/><circle cx="1360" cy="390" r="170"/>
+</g>
+<g opacity=".5" stroke="#C9A961" fill="none" stroke-width="3" stroke-linecap="round">
+<path d="M1008.0 686.4 C 1092.0 528.0, 1036.0 387.2, 1148.0 264.0"/>
+<ellipse cx="1029.0" cy="651.2" rx="26" ry="11" transform="rotate(-32 1029.0 651.2)"/><ellipse cx="1042.0" cy="605.2" rx="26" ry="11" transform="rotate(-32 1042.0 605.2)"/><ellipse cx="1055.0" cy="559.2" rx="26" ry="11" transform="rotate(-32 1055.0 559.2)"/><ellipse cx="1068.0" cy="513.2" rx="26" ry="11" transform="rotate(-32 1068.0 513.2)"/><ellipse cx="1081.0" cy="467.20000000000005" rx="26" ry="11" transform="rotate(-32 1081.0 467.20000000000005)"/><ellipse cx="1094.0" cy="421.20000000000005" rx="26" ry="11" transform="rotate(-32 1094.0 421.20000000000005)"/>
+</g>
+<text x="90" y="440.0" font-family="Georgia,serif" font-size="96" fill="#C9A961" opacity=".92">Gifting Guide</text>
+<text x="94" y="506.0" font-family="Helvetica,Arial" font-size="24" letter-spacing="7" fill="#C9A961" opacity=".6">THE MEMORA JOURNAL</text>
+</svg>

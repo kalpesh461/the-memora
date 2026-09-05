@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+<defs><linearGradient id="w101" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1C2616"/><stop offset="1" stop-color="#3B4A2C"/></linearGradient>
+<radialGradient id="r101" cx=".72" cy=".38" r=".62"><stop offset="0" stop-color="#E8D6A8" stop-opacity=".22"/><stop offset="1" stop-color="#E8D6A8" stop-opacity="0"/></radialGradient></defs>
+<rect width="1920" height="1080" fill="url(#w101)"/><rect width="1920" height="1080" fill="url(#r101)"/>
+<g opacity=".20" stroke="#E8D6A8" fill="none" stroke-width="1.6">
+<circle cx="1380" cy="300" r="70"/><circle cx="1450" cy="300" r="100"/><circle cx="1520" cy="300" r="130"/><circle cx="1380" cy="470" r="160"/><circle cx="1450" cy="470" r="190"/><circle cx="1520" cy="470" r="220"/>
+</g>
+<g opacity=".42" stroke="#E8D6A8" fill="none" stroke-width="3" stroke-linecap="round">
+<path d="M1420.8 928.8 C 1536.0 691.2, 1459.2 496.8, 1632.0 302.40000000000003"/>
+<ellipse cx="1443.84" cy="885.5999999999999" rx="30" ry="12" transform="rotate(-33 1443.84 885.5999999999999)"/><ellipse cx="1458.84" cy="833.5999999999999" rx="30" ry="12" transform="rotate(-33 1458.84 833.5999999999999)"/><ellipse cx="1473.84" cy="781.5999999999999" rx="30" ry="12" transform="rotate(-33 1473.84 781.5999999999999)"/><ellipse cx="1488.84" cy="729.5999999999999" rx="30" ry="12" transform="rotate(-33 1488.84 729.5999999999999)"/><ellipse cx="1503.84" cy="677.5999999999999" rx="30" ry="12" transform="rotate(-33 1503.84 677.5999999999999)"/><ellipse cx="1518.84" cy="625.5999999999999" rx="30" ry="12" transform="rotate(-33 1518.84 625.5999999999999)"/><ellipse cx="1533.84" cy="573.5999999999999" rx="30" ry="12" transform="rotate(-33 1533.84 573.5999999999999)"/><ellipse cx="1548.84" cy="521.5999999999999" rx="30" ry="12" transform="rotate(-33 1548.84 521.5999999999999)"/>
+</g>
+<g opacity=".30" stroke="#E8D6A8" fill="none" stroke-width="4" stroke-linejoin="round">
+<rect x="1152.0" y="561.6" width="220" height="165" rx="8"/><rect x="1134.0" y="513.6" width="256" height="52" rx="6"/>
+<path d="M1262.0 513.6v213"/>
+</g></svg>

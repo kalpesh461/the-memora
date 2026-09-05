@@ -1,0 +1,28 @@
+# Images never change their path once uploaded (a new upload gets a new
+# path), so these are safe to cache hard.
+[[headers]]
+  for = "/assets/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# JS/CSS are NOT filename-versioned in this project (there's no build
+# step) — store.js is always store.js, even after it changes. Caching
+# these as "immutable" for a year (the previous rule here) meant every
+# returning visitor's browser would silently keep running old code after
+# any update, for up to a year, with no way to notice. no-cache still
+# lets the browser cache the file, but forces it to revalidate with the
+# server on every load, so an actual change is picked up immediately.
+[[headers]]
+  for = "/assets/js/*"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/assets/css/*"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404

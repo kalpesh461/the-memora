@@ -1,0 +1,16 @@
+{
+ "name": "The Memora",
+ "short_name": "Memora",
+ "start_url": "/index.html",
+ "display": "standalone",
+ "background_color": "#FCFAF4",
+ "theme_color": "#2C3A22",
+ "icons": [
+  {
+   "src": "assets/img/logo.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}

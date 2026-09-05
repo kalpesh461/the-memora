@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+<defs><linearGradient id="g103" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#3B4A2C"/><stop offset="1" stop-color="#6B7A57"/></linearGradient>
+<radialGradient id="v103" cx=".5" cy=".38" r=".72">
+<stop offset="0" stop-color="#ffffff" stop-opacity=".14"/><stop offset="1" stop-color="#000000" stop-opacity=".20"/></radialGradient></defs>
+<rect width="800" height="1000" fill="url(#g103)"/><rect width="800" height="1000" fill="url(#v103)"/>
+<circle cx="400" cy="545" r="245" fill="none" stroke="#E8D6A8" stroke-width="1.4" opacity=".38"/>
+<circle cx="400" cy="545" r="278" fill="none" stroke="#E8D6A8" stroke-width=".8" opacity=".20"/>
+<g opacity=".30" stroke="#E8D6A8" fill="none" stroke-width="2.2" stroke-linecap="round"><path d="M90 880 C 130 800, 100 720, 145 640"/><ellipse cx="120" cy="860" rx="17" ry="8" transform="rotate(30 120 860)"/><ellipse cx="126" cy="818" rx="17" ry="8" transform="rotate(30 126 818)"/><ellipse cx="132" cy="776" rx="17" ry="8" transform="rotate(30 132 776)"/><ellipse cx="138" cy="734" rx="17" ry="8" transform="rotate(30 138 734)"/><ellipse cx="144" cy="692" rx="17" ry="8" transform="rotate(30 144 692)"/><ellipse cx="150" cy="650" rx="17" ry="8" transform="rotate(30 150 650)"/></g><g opacity=".30" stroke="#E8D6A8" fill="none" stroke-width="2.2" stroke-linecap="round"><path d="M710 880 C 670 800, 700 720, 655 640"/><ellipse cx="680" cy="860" rx="17" ry="8" transform="rotate(-30 680 860)"/><ellipse cx="674" cy="818" rx="17" ry="8" transform="rotate(-30 674 818)"/><ellipse cx="668" cy="776" rx="17" ry="8" transform="rotate(-30 668 776)"/><ellipse cx="662" cy="734" rx="17" ry="8" transform="rotate(-30 662 734)"/><ellipse cx="656" cy="692" rx="17" ry="8" transform="rotate(-30 656 692)"/><ellipse cx="650" cy="650" rx="17" ry="8" transform="rotate(-30 650 650)"/></g><g stroke="#E8D6A8" fill="none" stroke-width="5"><rect x="262" y="420" width="276" height="300" rx="10"/>
+        <rect x="300" y="458" width="200" height="224" rx="6" opacity=".55" stroke-width="3"/>
+        <path d="M320 640l52-62 42 46 34-30 32 46" stroke-width="3.4"/><circle cx="352" cy="516" r="16" stroke-width="3.4"/></g>
+<text x="400" y="836" text-anchor="middle" font-family="Georgia,serif" font-size="34" letter-spacing="9" fill="#E8D6A8" opacity=".85">THE MEMORA</text>
+<text x="400" y="872" text-anchor="middle" font-family="Helvetica,Arial" font-size="13" letter-spacing="6" fill="#E8D6A8" opacity=".55">WE WRAP EMOTIONS</text>
+</svg>
